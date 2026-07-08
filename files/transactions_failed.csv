@@ -1,0 +1,10 @@
+id,amount,category,status
+2,-,Rent,failed
+6,ERROR,Refund,failed
+9,N/A,Rent,failed
+11,NULL,Transport,failed
+14,ERROR,Utilities,failed
+16,-,Groceries,failed
+19,N/A,Groceries,failed
+22,ERROR,Transport,failed
+24,-,Utilities,failed
