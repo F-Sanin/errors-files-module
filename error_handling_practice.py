@@ -70,5 +70,19 @@ complex_data = [
     {"client": "Ivy", "amount": "3000"},
     {"client": "Jack Reacher", "amount": "NULL"}
 ]
+#
+# for client in complex_data:
+#     try:
+#         client["client"] = client["client"].split()[1]
+#     except IndexError:
+#         client["client"] = "Unknown"
+#     try:
+#         client["amount"] = int (client["amount"])
+#     except ValueError:
+#         client["amount"] = 0
+#     finally:
+#         print(f"Опрацювання запису про клієнта {client["client"]} завершено")
+#
+# print(complex_data)
 
 # Ваш код для завдань нижче:
