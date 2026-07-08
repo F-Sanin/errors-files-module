@@ -16,6 +16,13 @@ clients_names = [
     "Paul", "Quinn Fabray", "Rachel", "Steve Rogers", "Tony"
 ]
 
+surnames = []
+for client in clients_names:
+    try:
+        surnames.append(client.split()[1])
+    except IndexError:
+        surnames.append("Unknown")
+
 # Для Live Coding 2
 departments_sales = {
     "Tech": 150000,
